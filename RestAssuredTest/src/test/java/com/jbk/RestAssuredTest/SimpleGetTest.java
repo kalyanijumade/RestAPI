@@ -68,13 +68,13 @@ public class SimpleGetTest {
 		Assert.assertEquals(city, "Pune", "Correct city name received in the Response");
 	}
 
-	@Test
+	/*@Test
 	public void GetWeatherDetailsInvalidCity() {
 		RestAssured.baseURI = "http://restapi.demoqa.com/utilities/weather/city";
 		RequestSpecification httpRequest = RestAssured.given();
 		Response response = httpRequest.get("/78789798798");
 		int statusCode = response.getStatusCode();
 		Assert.assertEquals(statusCode , 200, "Correct status code returned");
-	}
+	}*/
 
 }
